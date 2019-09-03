@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<!--index(自己的),common(公共),reset(初始化标签)-->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/common.css"/>
+	<link rel="stylesheet" href="css/index.css"/>
+	<link rel="stylesheet" href="css/font.css"/>
+	<!--站点图标-->
+	<!--<link rel="shortcut icon" href="imgs/lk_favicon.ico" type="image/x-icon">-->
+</head>
+<body>
+	<div class="main">
+		<!---------------------------------------------头部--------------------------------------------->
+		<header class="main-header">
+			<!--头部上半部分--->
+			<div class="up-header">
+				<div class="container">
+					<div class="row">
+						<!--左边-->
+						<div class="col-md-6 col-sm-6">
+							<ul class="nav nav-left">
+								<li class="nav-li">
+									<a href="#" title=""><span>登录</span></a>
+								</li>
+								<li class="nav-li">
+									<a href="#"><span>注册</span></a>
+								</li>
+							</ul>
+						</div>
+						<!--右边-->
+						<div class="col-md-6 col-sm-6">
+							<ul class="nav nav-right">
+								<li class="nav-li">
+									<a href=""><span style="border: none">帮助信息</span></a>
+								</li>
+								<li class="nav-li">
+									<a href=""><span>我的收藏</span></a>
+								</li>
+								<li class="nav-li">
+									<a href=""><span>我的订单</span></a>
+								</li>
+								<li class="nav-li">
+									<a href=""><span>我的搜礼吧</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--头部下半部分-->
+			<div class="down-header pd20">
+				<div class="container">
+					<div class="row">
+						<!--左边-->
+						<div class="col-md-3 col-sm-3">
+							<ul class="logo-container">
+								<li>
+									<a href="#" class="logo">
+										<img src="./img/logo.png" alt="没找到图片" class="img-responsive">
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!--中间-->
+						<div class="col-md-4 col-sm-4">
+							<div class="nav-container">
+								<div id="nav">
+									<ul class="level1 nav navbar-nav">
+										<li class="category-product">
+											<a href="#" style="color: #e61874"><span>首页</span></a>
+										</li>
+										<li class="category-product">
+											<a href="#">	<span>定制导航</span></a>
+										</li>
+										<li class="category-product">
+											<a href="">	<span>艺术攻略</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!--右边-->
+						<div class="col-md-5 col-sm-5">
+							<!--搜索框-->
+							<ul class="links">
+								<li class="link-search search-psa">
+									<form method="get" action="">
+										<div class="form-search">
+											<input type="text" class="input-text" id="pcSearch" name="name1" placeholder="请输入关键字">
+											<button class="button" title="Search" type="submit"></button>
+										</div>
+									</form>
+								</li>
+							</ul>
+							<ul class="new-shop">
+								<li class="new">
+									<a href="#">
+									   <img src="./img/new02.png" alt="">
+									   <span class="new-ic">0</span>
+									</a>
+								</li>
+								<li class="shop">
+									<a href="#">
+									   <img src="./img/shop03.png" alt="">
+									   <span class="new-ic">0</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!---------------------------------------------中部--------------------------------------------->
+		<div class="main-container" style="padding:0 0 80px 0;background: #fff;">
+			<div class="container">
+				<div class="row">
+					<div class="location-nav col-md-12 col-sm-12">
+						<ul>
+							<li>你现在的位置:</li>
+							<li>定制&gt</li>
+							<li style="color: #e61874">详情</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="mc-quickcustom product-view">
+						<div class="quickcustom-left col-md-6 col-sm-6">
+							<div class="ql-top">
+								<img src="./img/product-view.png" alt="图片不存在">
+							</div>
+							<div class="ql-bottom">
+								<ul>
+									<li><img style="width: 100px;height: 96px;" src="./img/product-view01.png" alt="图片不存在"></li>
+									<li><img style="width: 100px;height: 96px;" src="./img/product-view02.png" alt="图片不存在"></li>
+									<li><img style="width: 100px;height: 96px;" src="./img/product-view03.png" alt="图片不存在"></li>
+									<li><img style="width: 100px;height: 96px;" src="./img/product-view04.png" alt="图片不存在"></li>
+								</ul>
+							</div>
+						</div>
+						<div class="quickcustom-right col-md-6 col-sm-6">
+							<div class="top">
+								<ul>
+									<li class="first">选择包装即模板:</li>
+									<li><button class="btn">极简风</button></li>
+									<li><button class="btn pack-active">礼品装</button></li>
+									<li><button class="btn">豪华派</button></li>
+								</ul>
+								<ul>
+									<li class="first">你选定的包装</li>
+									<li><img style="width: 80px;height: 80px;" src="./img/product-view02.png" alt="图片不存在"></li>
+								</ul>
+								<ul class="bag-bt">
+									<li class="first">本包装定制价</li>
+									<li>
+										<span style="font-size: 16px;color: #e61874">￥ </span>
+										<span style="font-size: 28px; color: #e61874">60.00</span>
+									</li>
+									<li style="color: #e30000">我不定制</li>
+								</ul>
+								<ul>
+									<li><button class="btn btn-two" style="margin-right:20px">提交资料</button></li>
+									<li><span>我不想自己操作，请网址方美工帮忙</span></li>
+								</ul>
+							</div>
+							<div class="custom-labelpage">
+								<!-- Nav tabs -->
+							    <ul class="nav nav-tabs" role="tablist">
+								    <li role="presentation" class="active"><a href="#addimg" aria-controls="home" role="tab" data-toggle="tab">添加图片</a></li>
+								    <li role="presentation"><a href="#addfont" aria-controls="profile" role="tab" data-toggle="tab">添加文字</a></li>
+								    <li role="presentation"><a href="#addmatter" aria-controls="messages" role="tab" data-toggle="tab">添加素材</a></li>
+							    </ul>
+								<!-- Tab panes -->
+							    <div class="tab-content">
+								    <div role="tabpanel" class="tab-pane active text-center" id="addimg" style="line-height: 140px;">
+								    	<button class="btn">上传图片</button>
+									</div>
+								    <div role="tabpanel" class="tab-pane" id="addfont">2</div>
+								    <div role="tabpanel" class="tab-pane" id="addmatter">3</div>
+							    </div>
+							</div>
+							<div style="margin: 30px 0">
+								<span style="color: #e30000">小贴士：</span>
+								<span>1.图片支持JPG、PNG、SVG格式，如需其他格式，或特殊位置印花，请点击右下角按钮联系客服。2.可以通过拖拽图片调整位置和大小。3.我们会根据您所提供的照片，进行优化调整，以呈现令您最满意的效果。</span>
+							</div>
+							<div>
+								<button class="btn custom-preview">预览效果</button>
+							</div>
+						</div>
+					</div> 
+				</div>
+			</div>
+		</div>
+		
+		<!---------------------------------------------底部--------------------------------------------->
+		<footer class="footer-container">
+			<div class="container footer-pd">
+				<!--左边-->
+				<div class="col-md-6 col-sm-6">
+					<div class="footer-img">
+						<img src="./img/wei.png" alt="图片不存在" class="img-responsive">
+						<div class="describe">
+							<span>关注生活艺术馆公众号</span>
+							<span>了解更多定制艺术资讯</span>
+						</div>
+					</div>
+				</div>
+				<!--右边-->
+				<div class="col-md-6 col-sm-6">
+					<div class="col-md-3 col-sm-3">
+						<div class="footer-bt">
+							<h5>服务保障</h5>
+							<ul>
+								<li><a href="#">关于108定制</a></li>
+								<li><a href="#">发票制度</a></li>
+								<li><a href="#">品质保证</a></li>
+							</ul>
+						</div>
+						<ul>
+							<li><a href="#">积分利用</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="footer-bt">
+							<h5>服务保障</h5>
+							<ul>
+								<li><a href="#">关于108定制</a></li>
+								<li><a href="#">发票制度</a></li>
+								<li><a href="#">品质保证</a></li>
+							</ul>
+						</div>
+						<ul>
+							<li><a href="#">积分利用</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="footer-bt">
+							<h5>服务保障</h5>
+							<ul>
+								<li><a href="#">关于108定制</a></li>
+								<li><a href="#">发票制度</a></li>
+								<li><a href="#">品质保证</a></li>
+							</ul>
+						</div>
+						<ul>
+							<li><a href="#">积分利用</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="footer-bt">
+							<h5>服务保障</h5>
+							<ul>
+								<li><a href="#">关于108定制</a></li>
+								<li><a href="#">发票制度</a></li>
+								<li><a href="#">品质保证</a></li>
+							</ul>
+						</div>
+						<ul>
+							<li><a href="#">积分利用</a></li>
+						</ul>
+					</div>
+					<div class="footer-bottom row">
+						<address class="address">copyright@2015-2017© 108dz.com 版权所有</address>
+						<div><span>互联网违法和不良信息举报电话:0731-81683755工信部备案号: 湘ICP备10991372号-1</span></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div id="lightboxOverlay" class="lightboxOverlay" style="width: 100%; height: 1781px; display: block;"></div>
+		<div id="lightbox" class="lightbox" style="display: block; top: 285px; left: 0px;">
+			<div class="lb-outerContainer" style="width: 780px; height: 720px;">
+				<div class="lb-outer" style="width: 720px; height: 720px; padding-top: 70px">
+					<div class="lb-container">
+						<img class="lb-image" src="./img/preview.png" style="display: block; width: 352px; height: 349px;">
+					</div>
+					<button class="btn">返回修改</button>
+					<button class="btn">加入定制计划</button>
+				</div>
+				<div class="lb-close">
+					<div class="close"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- 你自己的脚本文件 -->
+	<script src="js/index.js"></script>	
+</body>
+</html>
